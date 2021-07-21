@@ -30,7 +30,7 @@ The URL of the origin respiratory is https://github.com/jackbuehner/MicrosoftEdg
 - 增加manifest.json来让网页变成一个应用
 - 把压缩的js文件复原方便编辑
 - 在 surf.bundle.js 里更新了需要依赖 [WebUI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_explainer.md) 函数并调用到边缘的原生代码。这些功能现在使用LocalStorage 的功能来保存游戏统计数据。
-- 
+- 汉化 (Translate the language into Chinese)
 ## 不足
 - 单击宝藏无法出现edge浏览器的新图标。
 
