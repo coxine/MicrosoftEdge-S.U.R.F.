@@ -1,22 +1,36 @@
-# Microsoft Edge S.U.R.F. Game
-The S.U.R.F. game from edge://surf
+# Edge的冲浪游戏
+来自edge://surf 的冲浪游戏
+
+## 版权信息
+
+本文档翻译自英文版的[README](https://github.com/jackbuehner/MicrosoftEdge-S.U.R.F./blob/master/README.md)
+
+感谢原作者[jackbuehner](https://github.com/jackbuehner)
+
+原仓库地址：https://github.com/jackbuehner/MicrosoftEdge-S.U.R.F./
+
+This document is translated from the English Version of the [README](https://github.com/jackbuehner/MicrosoftEdge-S.U.R.F./blob/master/README.md)
+
+Thanks for [jackbuehner](https://github.com/jackbuehner)
+
+The URL of the origin respiratory is https://github.com/jackbuehner/MicrosoftEdge-S.U.R.F./
+
+---
 
 ![image](https://user-images.githubusercontent.com/16235094/68094282-c960d400-fe6c-11e9-8719-e3da9a5149ee.png)
 
-I did not create this game; I just copied the files from Microsoft Edge and modified some URLS so it would work outside of Edge.
+我不是游戏的创造者，我只是游戏的搬运工，这个剥离出来的版本能在edge浏览器外独立运行。
 
-## Playing
-Play the game at https://surf.jackbuehner.com
+## 哪里可以玩？
+在 http://surf.costg.cf 玩
 
-## What I changed
-- Changed some URLs
-- Added a favicon
-- Added an ico favicon to support multiple icon sizes
-- Added a manifest.json so the website can be added as a PWA app
-- Ran minimized JavaScript files through a beautifier to make modification easier.
-- Updated functions in surf.bundle.js which relied on [WebUI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_explainer.md) and called into native code on Edge. Those functions now use localStorage to save the game stats.
+## 修改
+- 修改文件的位置和一些链接
+- 增加了网页图标和适应不同尺寸的图标
+- 增加manifest.json来让网页变成一个应用
+- 把压缩的js文件复原方便编辑
+- 在 surf.bundle.js 里更新了需要依赖 [WebUI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_explainer.md) 函数并调用到边缘的原生代码。这些功能现在使用本地存储来保存游戏统计数据。
+## 不足
+- 单击宝藏无法出现edge浏览器的新图标。
 
-## What is not working
-- Clicking the treasure chest does not open the popup with the new Edge logo
-
-If you know how to fix anything that is not working, feel free to open a pull request. I'll merge it as soon as I see it and confirm it does not break anything.
+如果你知道如何修复这个图标，请到https://github.com/jackbuehner/MicrosoftEdge-S.U.R.F./pulls 开一个pull request并等待原作者的后续合并。
