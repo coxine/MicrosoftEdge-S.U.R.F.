@@ -21,7 +21,7 @@ The URL of the origin respiratory is https://github.com/jackbuehner/MicrosoftEdg
 
 我不是游戏的创造者，我只是游戏的搬运工，这个剥离出来的版本能在edge浏览器外独立运行。
 
-## 哪里可以玩？
+## 游戏地址
 在 http://surf.costg.cf 玩
 
 ## 修改
@@ -29,7 +29,8 @@ The URL of the origin respiratory is https://github.com/jackbuehner/MicrosoftEdg
 - 增加了网页图标和适应不同尺寸的图标
 - 增加manifest.json来让网页变成一个应用
 - 把压缩的js文件复原方便编辑
-- 在 surf.bundle.js 里更新了需要依赖 [WebUI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_explainer.md) 函数并调用到边缘的原生代码。这些功能现在使用本地存储来保存游戏统计数据。
+- 在 surf.bundle.js 里更新了需要依赖 [WebUI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_explainer.md) 函数并调用到边缘的原生代码。这些功能现在使用LocalStorage 的功能来保存游戏统计数据。
+- 
 ## 不足
 - 单击宝藏无法出现edge浏览器的新图标。
 
